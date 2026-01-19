@@ -1,2 +1,0 @@
-# Vaishu
-Web Lab
