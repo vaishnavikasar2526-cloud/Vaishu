@@ -1,0 +1,20 @@
+CREATE DATABASE search_db;
+
+USE search_db;
+
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+INSERT INTO products (name) VALUES
+('Apple iPhone'),
+('Apple Watch'),
+('Samsung Galaxy'),
+('Sony Headphones'),
+('Dell Laptop'),
+('HP Laptop'),
+('Lenovo ThinkPad'),
+('Asus ROG Laptop'),
+('Canon Camera'),
+('Nikon Camera');
